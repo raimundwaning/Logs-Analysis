@@ -1,5 +1,6 @@
 # Logs-Analysis
 This python program is my solution for the project LogAnalysis of the FullStack Web Developer Nanodegree @Udacity
+The python file can be found in this repo at: Logs-Analysis/vagrant/LogsAnalysis/LogsAnalysis.py
 It uses basic python code to connect to a database and extract some data from it with SQL-queries. The database contains the three tables "articles", "authors" and "log" which represents the data a fictional news website stores. In the table "log", requests from visitors are stored, including the http-status, path (which directs to the article, which also stores the author in the articles table), so we know which request was successful and how often which article was requested.
 The queries answer the questions:
 1. What are the most popular three articles of all time?
